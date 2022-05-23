@@ -1,0 +1,16 @@
+{
+  "name": "self-made-frameworkless-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.2.0",
+    "gh-pages": "^3.2.3",
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "tsc-alias": "^1.6.7",
+    "typescript": "^4.6.4"
+  }
+}
