@@ -1,4 +1,4 @@
-import BaseRenderer from './BaseRenderer.js';
+import BaseRenderer from 'https:/hkleungai.github.io/mini-web-component/BaseRenderer.js';
 export default class ButtonRenderer extends BaseRenderer {
     constructor() {
         super('Button');

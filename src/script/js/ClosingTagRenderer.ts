@@ -1,4 +1,4 @@
-import BaseRenderer, { BaseProps } from './BaseRenderer';
+import BaseRenderer, { BaseProps } from 'https://hkleungai.github.io/mini-web-component/BaseRenderer.js';
 
 interface ClosingRendererProps extends BaseProps {
   text?: string;

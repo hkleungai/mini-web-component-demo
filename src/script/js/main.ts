@@ -24,6 +24,7 @@ function _main(): void {
   const closingTagRenderer = new ClosingTagRenderer();
   const buttonTagRenderer = new ButtonRenderer();
   reInitializeRenderer();
+  reInitializeRenderer();
 
   const fragments = [
     headerRenderer.render({ text: 'Cool Component Demo 🤤' }).fragment,

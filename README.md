@@ -37,6 +37,17 @@ In my mind, a mini web component should be able to do several things.
 
 These idea are put together into a large abstract class `BaseRenderer` in `src/script/js/BaseRenderer.ts`, 
 A custom renderer can then be created as follows.
+- Import module from url.
+  ```typescript
+  import BaseRenderer, { BaseProps } from 'https://hkleungai.github.io/mini-web-component/BaseRenderer.js';
+  ```
+- (_Optional. Only when you want to use typescript for development_) Download and apply types from [this link](https://hkleungai.github.io/mini-web-component/BaseRenderer.d.ts).
+- (_Optional. Only when you want to use typescript for development_) Put typings to `src/index.d.ts`.
+    ```typescript
+    declare module 'https://hkleungai.github.io/mini-web-component/BaseRenderer.js' {
+        // Paste the types in here.
+    }  
+    ```
 - Declare a renderer class.
     ```typescript
     interface Props extends BaseProps { ... };
@@ -72,7 +83,7 @@ To actually use the renderer, one should do the following.
 
 ## Example 
 
-Please check `src/` or [this github-io link](https://hkleungai.github.io/mini-web-component) for a pre-implemented example.
+Please check source codes in `src/` or check [this github-io link](https://hkleungai.github.io/mini-web-component-demo) for a pre-implemented example.
 
 ## Compilation
 
