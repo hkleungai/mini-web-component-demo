@@ -20,6 +20,7 @@ function _main() {
     const closingTagRenderer = new ClosingTagRenderer();
     const buttonTagRenderer = new ButtonRenderer();
     reInitializeRenderer();
+    reInitializeRenderer();
     const fragments = [
         headerRenderer.render({ text: 'Cool Component Demo 🤤' }).fragment,
         buttonTagRenderer.render({ text: 'A button', onClickText: 'Custom Text emitted upon onClick' }).fragment,
